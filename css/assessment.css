@@ -182,13 +182,13 @@
 }
 .assessment-blog {
   width: 100%;
-  min-height: 717px;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: var(--dl-size-size-maxwidth);
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
+  min-height: 772px;
 }
 .assessment-container2 {
   display: flex;
@@ -397,44 +397,16 @@
   }
 }
 
-.table100.ver6 {
-  border-radius: 16px;
-  overflow: hidden;
-  background: #7918f2;
-  background: -webkit-linear-gradient(-68deg,#ac32e4,#4801ff);
-  background: -o-linear-gradient(-68deg,#ac32e4,#4801ff);
-  background: -moz-linear-gradient(-68deg,#ac32e4,#4801ff);
-  background: linear-gradient(-68deg,#ac32e4,#4801ff)
+tr,table,td {
+  border: none;
+  border-collapse: collapse;
 }
-
-.table100.ver6 table {
-  background-color: transparent
+table {
+  width: 100%;
 }
-
-.table100.ver6 td {
-  font-family: Montserrat-Regular;
-  font-size: 14px;
-  color: #fff;
-  line-height: 1.4
+td {
+  padding:8px;
 }
-
-.table100.ver6 th {
-  font-family: Montserrat-Medium;
-  font-size: 12px;
-  color: #fff;
-  line-height: 1.4;
-  text-transform: uppercase;
-  background-color: rgba(255,255,255,.32)
-}
-
-.table100.ver6 .row100:hover td {
-  background-color: rgba(255,255,255,.1)
-}
-
-.table100.ver6 .hov-column-ver6 {
-  background-color: rgba(255,255,255,.1)
-}
-
-.table100.ver6 .row100 td:hover {
-  background-color: rgba(255,255,255,.2)
+tr:hover{
+  background-color: var(--dl-color-gray-900);
 }
